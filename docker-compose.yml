@@ -10,6 +10,6 @@ services:
     links:
       - redis
   redis:
-  image: redis
-  volumes:
+    image: redis
+volumes:
   logvolume01: {}
